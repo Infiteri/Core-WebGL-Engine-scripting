@@ -1,0 +1,24 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.debugger {
+  position: absolute;
+  bottom: 0px;
+  background-color: #000;
+  color: white;
+  width: 100%;
+  height: 100px;
+  user-select: none;
+  overflow-y: scroll;
+  font-size: 10px;
+}
+
+.debugger::-webkit-scrollbar {
+  display: none;
+}
